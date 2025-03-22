@@ -36,15 +36,35 @@ const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbar = document.querySelector("[data-navbar]");
 const overlay = document.querySelector("[data-overlay]");
+const navLinks = document.querySelectorAll("[data-nav-link]");
 
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   navToggleBtn.classList.toggle("active");
   overlay.classList.toggle("active");
-  document.body.classList.toggle("nav-active");
 }
 
-addEventOnElements(navTogglers, "click", toggleNavbar);
+addEventOnElements(navTogglers, "click", function(e) {
+  e.preventDefault();
+  toggleNavbar();
+  document.body.classList.toggle("nav-active");
+});
+
+addEventOnElements(navLinks, "click", function(e) {
+  e.preventDefault();
+  const targetId = this.getAttribute("href");
+  const targetSection = document.querySelector(targetId);
+  if (targetSection) {
+    const offset = targetSection.offsetTop - 100;
+    window.scrollTo({
+      top: offset,
+      behavior: "smooth"
+    });
+  }
+  if (navbar.classList.contains("active")) {
+    toggleNavbar();
+  }
+});
 
 
 
