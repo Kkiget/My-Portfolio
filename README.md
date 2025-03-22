@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Pfolio** locally, run this command on your git bash:
+To run **Portfolio** locally, run this command on your git bash:
 
 Linux and macOS:
 
@@ -42,7 +42,7 @@ git clone https://github.com/My-Portfolio.git
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://x.com/KimaruKiget?t=byzyPi40C8cjlO65o8jmvQ&s=08).
 
 ### License
 
