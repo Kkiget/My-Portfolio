@@ -1,11 +1,5 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/pfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/pfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/pfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/P-Auxj7aNfQ?style=social)](https://youtu.be/P-Auxj7aNfQ)
-
   <br />
   <br />
 
@@ -21,7 +15,8 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Desktop Demo](![Kkiget](https://github.com/user-attachments/assets/7aac3e76-816b-4e87-b551-a10fdc7392a4)
+ "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,23 +26,23 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Pfolio** locally, run this command on your git bash:
+To run **Portfolio** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/pfolio.git
+sudo git clone https://github.com/Kkiget/My-Portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/pfolio.git
+git clone https://github.com/My-Portfolio.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://x.com/KimaruKiget?t=byzyPi40C8cjlO65o8jmvQ&s=08).
 
 ### License
 
