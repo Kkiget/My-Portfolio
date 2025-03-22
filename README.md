@@ -15,7 +15,7 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](![Kkiget](https://github.com/user-attachments/assets/7aac3e76-816b-4e87-b551-a10fdc7392a4)
+![Desktop Demo](![Kkiget](https://github.com/user-attachments/assets/7aac3e76-816b-4e87-b551-a10fdc7392a4)
  "Desktop Demo")
 
 ### Prerequisites
@@ -31,13 +31,13 @@ To run **Pfolio** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/pfolio.git
+sudo git clone https://github.com/Kkiget/My-Portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/pfolio.git
+git clone https://github.com/My-Portfolio.git
 ```
 
 ### Contact
