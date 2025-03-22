@@ -15,7 +15,8 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Pfolio Desktop Demo](![Kkiget](https://github.com/user-attachments/assets/7aac3e76-816b-4e87-b551-a10fdc7392a4)
+ "Desktop Demo")
 
 ### Prerequisites
 
