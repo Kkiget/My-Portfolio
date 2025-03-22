@@ -162,8 +162,13 @@ body.nav-active { overflow: hidden; }
   align-items: center;
 }
 
+.header .navbar {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
 .header .logo {
-  margin-left: 0;
+  margin-left: 20px;
   margin-right: 0;
 }
 
@@ -176,6 +181,8 @@ body.nav-active { overflow: hidden; }
   place-content: center;
   gap: 8px;
   transition: var(--transition-1);
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .nav-toggle-btn:is(:hover, :focus-visible) { gap: 10px; }
@@ -196,7 +203,7 @@ body.nav-active { overflow: hidden; }
 .navbar {
   position: absolute;
   top: 100%;
-  right: -370px;
+  right: 0;
   max-width: 370px;
   width: 100%;
   background-color: var(--white);
@@ -209,7 +216,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .navbar.active {
-  transform: translateX(-370px);
+  transform: translateX(0);
   visibility: visible;
   transition-timing-function: var(--cubic-out);
 }
@@ -235,9 +242,10 @@ body.nav-active { overflow: hidden; }
 
 .overlay.active { display: block; }
 
-
-
-
+.header .logo img {
+  width: 50px;
+  height: auto;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
